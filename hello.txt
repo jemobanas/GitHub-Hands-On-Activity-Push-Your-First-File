@@ -1,4 +1,9 @@
 Answer the following:
-What challenges did you face during this activity
-Which Git command was the most confusing?
-How can version control help in real-world software development?
+### **Challenges Faced During This Activity**  
+I ran into a few issues while setting up Git. First, I kept getting an error saying the file didn’t exist when trying to add it, which was frustrating. Then, I had trouble pushing my changes because Git told me the branch didn’t match any refspecs. Also, I accidentally used `< >` around the remote URL, which PowerShell didn’t like. Figuring out what went wrong and fixing these errors took some time.  
+
+### **Most Confusing Git Command**  
+The `git push -u origin main` command was confusing because I thought I could push right away, but Git wouldn’t let me. I didn’t realize that I needed to commit something first before pushing, so I kept getting an error. Once I understood that, everything made more sense.  
+
+### **How Version Control Helps in Real-World Software Development**  
+Version control is super useful in coding projects. It keeps track of every change, so if something breaks, you can easily go back to a previous version. It also helps when working with a team since multiple people can work on the same project without messing up each other’s work. Plus, having a backup on GitHub means you won’t lose your code if your computer crashes.
